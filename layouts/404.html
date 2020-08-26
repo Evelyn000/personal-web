@@ -4,6 +4,7 @@
 <p>{{ .Site.Params.notFound.p }}</p>
 <img src="{{ .Site.Params.notFound.gopher }}" alt="gopher" title="gopher" class="gopher" />
 
+<!--
 {{ if .Site.Params.mainSections }}
   {{ $scratch := newScratch }}
   {{ if in .Site.Params.mainSections "portfolio" }}
@@ -21,6 +22,6 @@
       {{ partial "post/item" .}}
     {{ end }}
   {{ end }}
-{{end}}
+{{end}}-->
 
 {{ partial "footer" .}}
